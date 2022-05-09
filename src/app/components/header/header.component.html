@@ -1,3 +1,10 @@
-<nav class="navbar navbar-dark bg-primary">
-  <!-- Navbar content -->
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Varun Reddy</a>
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav d-flex" *ngFor="let navItem of navList">
+        <a class="nav-link" aria-current="page" href="#">{{navItem}}</a>
+      </div>
+    </div>
+  </div>
 </nav>
