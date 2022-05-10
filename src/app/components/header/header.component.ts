@@ -12,6 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-navList = ['Resume', 'Contact'];
-
+navList = [
+  {path: '/home', title: 'Resume'},
+  {path: '/contact', title: 'Contact'}
+];
 }
