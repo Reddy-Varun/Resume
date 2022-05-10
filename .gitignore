@@ -17,6 +17,7 @@
 .settings/
 *.sublime-workspace
 .angular/
+.firebase/
 
 # IDE - VSCode
 .vscode/*
