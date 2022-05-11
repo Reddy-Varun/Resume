@@ -22,5 +22,39 @@ $grid-breakpoints: (
     .col-4 {
          width: 98%;
     }
+
+    .img-fluid{
+        margin-bottom: 30px;
+    }
+
+    .img-fluid{
+        height: 320px;
+        max-width: none;
+    }
+}
+
+@include media-breakpoint-between(sm, md) {
+.img-fluid{
+    height: 15em;
+    max-width: none;
+}
+}
+
+@include media-breakpoint-between(md, lg) {
+    
+    .img-fluid{
+        height: 320px;
+        max-width: none;
+    }
     
 }
+
+@include media-breakpoint-up(lg) {
+    
+    .img-fluid{
+        height: 430px;
+        max-width: none;
+    }
+    
+}
+
