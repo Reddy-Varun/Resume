@@ -31,6 +31,14 @@ $grid-breakpoints: (
         height: 320px;
         max-width: none;
     }
+
+    .container {
+     padding-top: 0rem !important; 
+    }
+
+    .row-cols-3 > * {
+    width: 98% !important;
+    }
 }
 
 @include media-breakpoint-between(sm, md) {
