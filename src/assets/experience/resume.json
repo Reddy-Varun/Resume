@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "company": "",
+      "logo": "",
+      "startDate": "",
+      "EndDate": "",
+      "role": "",
+      "responsibilities": ["", ""],
+      "environment": ["", ""]
+    },
+    {
+      "company": "Capgemini",
+      "logo": "",
+      "startDate": "2016-10-16T04:00:00.000Z",
+      "EndDate": "2018-12-30T04:00:00.000Z",
+      "role": "Front End UI Developer",
+      "responsibilities": [
+        "Extensively worked on designing web pages using HTML, CSS, JavaScript and Ajax.",
+        "Design and implementation of new feature or software components for the front-end of a large Web application",
+        "Developed a single page, mobile-first, cross-device/cross-browser web application for real-time location sharing",
+        "Implemented client-side validations in registration forms, login and logout forms using Java Script "
+      ],
+      "environment": ["", ""]
+    }
+  ]
+}
