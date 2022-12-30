@@ -1,17 +1,23 @@
 {
   "data": [
     {
-      "company": "",
-      "logo": "",
-      "startDate": "",
+      "company": "LGS, an IBM company",
+      "logo": "../../../assets/img/lgs.png",
+      "startDate": "2022-01-10T04:00:00.000Z",
       "EndDate": "",
       "role": "",
-      "responsibilities": ["", ""],
-      "environment": ["", ""]
+      "responsibilities": [
+        "Re-engineered the existing legacy application into a web-based application using the latest web technologies.",
+        "Developed resuable components",
+        "As a UI Developer, assisting my team in developing two different Web-based applications and managed in developing various web pages.",
+        "Involved in development of commonly used Angular components across teams such as directives for grid, pagination, conditional validations etc.",
+        "Knowledge of techniques used in Angular 13 with the help of Typescript."
+      ],
+      "tools": ["", ""]
     },
     {
       "company": "Capgemini",
-      "logo": "",
+      "logo": "../../../assets/img/cg.png",
       "startDate": "2016-10-16T04:00:00.000Z",
       "EndDate": "2018-12-30T04:00:00.000Z",
       "role": "Front End UI Developer",
@@ -21,7 +27,7 @@
         "Developed a single page, mobile-first, cross-device/cross-browser web application for real-time location sharing",
         "Implemented client-side validations in registration forms, login and logout forms using Java Script "
       ],
-      "environment": ["", ""]
+      "tools": ["", ""]
     }
   ]
 }
